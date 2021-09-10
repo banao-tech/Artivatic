@@ -5,6 +5,8 @@ import Carousel from "../../components/Carousel/carousel";
 import brand1Img from "../../assets/vector/brands.svg"
 import brand2Img from "../../assets/vector/brands2.svg"
 import NewsLetterSection from "../../components/NewsLetter/NewsLetter"
+import Section12 from "../../components/Section12/Section12.js";
+import Banner from "../../components/Banner/Banner";
 export default function Product() {
 
     return (
@@ -94,6 +96,11 @@ export default function Product() {
 
                 </div>
             </section>
+            <Banner
+                title="Need to experience the product ?"
+                buttonText="Take a quick Product Tour"
+            ></Banner>
+            <Section12></Section12>
             <NewsLetterSection
                 title="Lets build next-gen insurance & health products"
                 btn1text="Schedule a Demo"
