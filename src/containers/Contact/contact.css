@@ -1,0 +1,303 @@
+.getintouch .banner {
+  padding: 50px 30px;
+  width: 100%;
+  /* display: flex; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+.contactdetails {
+  padding: 50px 0px;
+  overflow: hidden;
+}
+
+.contactdetails .wrapper {
+  max-width: 500px;
+}
+
+.contactdetails .heading {
+  margin-bottom: 68px;
+}
+
+.contactdetails .heading h1 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  color: var(--text-dark);
+}
+
+.contactdetails .wrapper .dot-grid-1,
+.contactdetails .wrapper .dot-grid-2 {
+  width: 94px;
+  height: 82px;
+  position: absolute;
+  z-index: 1;
+  background-image: url("../../assets/vector/dot-grid.svg");
+  background-position: center center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.contactdetails .wrapper .dot-grid-1 {
+  top: -35px;
+  left: 48px;
+}
+
+.contactdetails .wrapper .dot-grid-2 {
+  bottom: -35px;
+  right: 48px;
+}
+.getintouch .head1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 130%;
+  /* identical to box height, or 78px */
+  width: 100%;
+  color: #22bb66;
+}
+.getintouch .description {
+  font-style: normal;
+  font-size: 12px;
+  line-height: 160%;
+  font-weight: 600;
+  color: #474a54;
+  margin-top: 20px;
+}
+.getintouch .green-right-shade {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translateY(-50%);
+  z-index: -10;
+  width: 100%;
+}
+.getintouch .service-img {
+  width: 100%;
+  margin-top: 20px;
+}
+.getintouch .leftdiv {
+  width: 100%;
+}
+.desktop {
+  display: none !important;
+}
+.mobile {
+  display: block !important;
+}
+.globalOffices {
+  padding: 30px 0px;
+}
+.globalOffices .wrapper {
+  text-align: center;
+}
+.globalOffices .title {
+  width: 100%;
+  font-size: 20px;
+  line-height: 130%;
+  /* identical to box height, or 52px */
+  color: #22bb66;
+  text-align: center;
+}
+.globalOffices .map {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.demo {
+  background: #f4f5fa;
+}
+.demo .banner {
+  padding: 0px;
+}
+.demo .contact-detail-img {
+  width: 100%;
+}
+.demo .contactdetails {
+  width: 100%;
+  margin-top: 50px;
+  padding: 30px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-sm-6 {
+  width: 100%;
+}
+.col-md-12 {
+  width: 100%;
+}
+.demo .contactdetails .row .inputField {
+  background: #ffffff;
+  border: 1px solid rgba(71, 74, 84, 0.3);
+  box-sizing: border-box;
+  border-radius: 12px;
+  width: calc(100% - 24px);
+  line-height: 20px;
+  padding: 15px 20px;
+  font-size: 16px;
+  margin: 12px;
+}
+.demo .contactdetails .row .heading {
+  display: block;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  color: #050302;
+  margin: 12px;
+}
+.demo .contactdetails .row .greenbutton {
+  padding: 16px 40px;
+  width: 136px;
+  height: 52px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  /* identical to box height, or 111% */
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: #22bb66;
+  border-radius: 8px;
+  margin: 12px;
+}
+@media screen and (min-width: 768px) {
+  .col-sm-6 {
+    width: 50%;
+  }
+  .desktop {
+    display: block !important;
+  }
+  .mobile {
+    display: none !important;
+  }
+  .getintouch .banner {
+    max-width: 1800px;
+    padding: 50px 120px;
+    justify-content: right;
+  }
+  .getintouch .leftdiv {
+    width: calc(100% - 400px);
+  }
+  .getintouch .head1 {
+    width: 80%;
+    font-size: 60px;
+    line-height: 130%;
+  }
+  .getintouch .description {
+    width: 70%;
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 160%;
+  }
+  .getintouch .green-right-shade {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -10;
+    width: unset;
+    left: auto;
+  }
+  .getintouch .service-img {
+    width: 400px;
+    margin-right: auto;
+  }
+  .contactdetails {
+    display: flex;
+    padding: 80px 0px;
+    justify-content: center;
+  }
+
+  .banner {
+    padding: 80px 50px;
+    width: 100%;
+    display: flex;
+  }
+  .contactdetails .wrapper {
+    max-width: 1800px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 400px));
+    column-gap: 30px;
+    row-gap: 40px;
+  }
+
+  .contactdetails .heading {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .contactdetails .wrapper .dot-grid-1 {
+    top: -40px;
+    left: 280px;
+  }
+
+  .contactdetails .wrapper .dot-grid-2 {
+    bottom: -30px;
+    left: auto;
+    right: 0;
+  }
+  .globalOffices .title {
+    width: 100%;
+    font-size: 40px;
+    line-height: 130%;
+    /* identical to box height, or 52px */
+    color: #22bb66;
+    text-align: center;
+  }
+  .globalOffices .map {
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  .demo .contact-detail-img {
+    width: 40%;
+  }
+  .demo .contactdetails {
+    width: 60%;
+    padding-left: 60px;
+    padding-right: 135px;
+    padding-top: 60px;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .getintouch .banner {
+    padding: 50px 320px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contactdetails {
+    padding: 100px 0px;
+  }
+  .contactdetails .wrapper {
+    grid-template-columns: repeat(2, minmax(240px, 570px));
+  }
+
+  .contactdetails .heading h1 {
+    font-size: 50px;
+    line-height: 130%;
+  }
+
+  .contactdetails .wrapper .dot-grid-1,
+  .contactdetails .wrapper .dot-grid-2 {
+    width: 131.58px;
+    height: 115px;
+  }
+
+  .contactdetails .wrapper .dot-grid-1 {
+    top: -50px;
+    left: -30px;
+  }
+
+  .contactdetails .wrapper .dot-grid-2 {
+    bottom: -50px;
+    right: -20px;
+  }
+}
