@@ -1,0 +1,396 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Carosel Style  */
+
+#about-page__carousel {
+  margin-bottom: 50px;
+}
+
+/* Our Story Section Start  */
+
+.ourstory {
+  background-color: #f4f5fa;
+}
+
+.ourstory .wrapper {
+  padding: 100px 150px;
+  text-align: center;
+}
+
+.ourstory h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  margin-bottom: 30px;
+}
+
+.line {
+  width: 56px;
+  height: 2px;
+  background: #22bb66;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.ourstory img {
+  margin: 50px 0;
+  width: 100%;
+}
+
+.ourstory p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+/* Our Journey Section Start  */
+
+.our-journey {
+  padding: 100px 20px;
+}
+
+.our-journey h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  margin-bottom: 30px;
+}
+
+.our-journey .left-md {
+  padding: 0 15px;
+  width: 60%;
+  padding-top: 10px;
+}
+
+.our-journey .right-md {
+  width: 40%;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.our-journey .right-md img {
+  width: 100%;
+}
+
+.journey-row {
+  display: flex;
+}
+
+.journey-row .year {
+  width: 130px;
+  position: relative;
+}
+
+.journey-row .year h6 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.journey-row .year::after {
+  content: "";
+  border-right: 2px dashed #c4c4c4;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+
+.journey-row:last-child .year::after {
+  content: none;
+}
+
+.journey-row .desc {
+  position: relative;
+  flex: 1;
+  padding-bottom: 90px;
+  padding-left: 48px;
+  padding-right: 110px;
+}
+
+.journey-row .desc p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(71, 74, 84, 1);
+}
+
+.journey-row .desc::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: #22bb66;
+  border-radius: 5px;
+  transform: rotate(45deg);
+  position: absolute;
+  left: -11px;
+}
+
+/* What We Do Section Start */
+
+.what-we-do .first-section .left-md {
+  order: 2;
+}
+
+.what-we-do .first-section .right-md {
+  order: 1;
+}
+
+/* Changing the way Section */
+
+.change-the-way {
+  width: 100%;
+  padding: 80px 20px;
+  background-color: #e9f8f0;
+}
+
+/* Join our Community Section */
+
+/* Background Banner Section */
+
+.background-img-section {
+  padding: 40px 20px;
+  background-image: url(../../assets/png/contact-us-footer.png);
+  background-size: cover;
+  text-align: center;
+}
+
+.background-img-section h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 47px;
+  text-align: center;
+  color: #fff;
+  max-width: 590px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.background-img-section a {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  border: 2px solid #fff;
+  padding: 15px 25px;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none !important;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.background-img-section a.fill {
+  background-color: #fff;
+  color: rgba(5, 3, 2, 1);
+}
+
+/* Our customers Section Start */
+
+.our-customer {
+  background-color: #f4f5fa;
+}
+
+.our-customer .wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.our-customer .left-md {
+  width: 56%;
+  padding-right: 70px;
+}
+
+.our-customer .left-md h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.our-customer .left-md h1 span {
+  color: rgba(34, 187, 102, 1);
+}
+
+.our-customer .left-md .line {
+  margin: 20px 0;
+}
+
+.our-customer .left-md p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.our-customer .right-md {
+  width: 40%;
+}
+
+.our-customer .right-md img {
+  width: 100%;
+  min-height: 520px;
+}
+
+/*************************
+	-	Responsive	-
+	**************************/
+
+@media screen and (max-width: 1599px) {
+}
+
+@media screen and (max-width: 1365px) {
+  .journey-row .desc {
+    padding-right: 25px;
+  }
+  .our-customer .left-md h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .our-customer .left-md {
+    padding: 70px 0;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .ourstory .wrapper {
+    padding: 70px 80px;
+  }
+  .ourstory h1 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .ourstory p {
+    font-size: 17px;
+    line-height: 24px;
+  }
+  .our-journey h1 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .journey-row .year h6 {
+    font-size: 25px;
+    line-height: 22px;
+  }
+  .journey-row .year {
+    width: 100px;
+  }
+  .journey-row .desc p,
+  .our-customer .left-md p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .journey-row .desc {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .our-journey .left-md {
+    width: 100%;
+  }
+  .our-journey .right-md {
+    width: 70%;
+    margin: auto;
+  }
+  .journey-row .desc {
+    padding-left: 40px;
+  }
+  .our-customer {
+    padding: 50px 50px;
+  }
+  .our-customer .wrapper {
+    flex-wrap: wrap;
+  }
+  .our-customer .left-md {
+    width: 100%;
+  }
+  .our-customer .right-md {
+    width: 100%;
+    text-align: center;
+  }
+  .our-customer .right-md img {
+    width: 80%;
+    margin: auto;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 574px) {
+  .ourstory .wrapper {
+    padding: 70px 40px;
+  }
+  .our-journey .right-md {
+    width: 90%;
+  }
+  .our-customer .left-md {
+    padding: 0;
+    padding-bottom: 50px;
+  }
+  .our-customer {
+    padding: 40px 15px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .ourstory .wrapper {
+    padding: 40px 20px;
+  }
+  .ourstory h1 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
+  .ourstory img {
+    margin: 30px 0;
+  }
+  .ourstory p {
+    font-size: 14px;
+  }
+  .our-journey.wrapper {
+    padding: 60px 15px;
+  }
+  .our-journey h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .journey-row .desc {
+    padding-left: 25px;
+  }
+  .journey-row .desc::before {
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    left: -9px;
+  }
+  .journey-row .year h6 {
+    font-size: 18px;
+    line-height: 17px;
+  }
+  .journey-row .year {
+    width: 65px;
+  }
+  .journey-row .desc {
+    padding-left: 15px;
+    padding-right: 0;
+  }
+  .journey-row .desc p {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  .our-customer .left-md h1 {
+    font-size: 23px;
+    line-height: 26px;
+  }
+  .our-customer .wrapper {
+    padding: 0 10px;
+  }
+}

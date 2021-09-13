@@ -8,6 +8,7 @@ import { Router, Route, Redirect } from "react-router-dom";
 import { createBrowserHistory } from 'history';
 import Product from "./containers/Product/product.js";
 import Team from "./containers/team/team.js";
+import Aboutus from "./containers/aboutus/aboutus"
 import "./App.css";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path={"/contact-us"} component={Contact}></Route>
         <Route path={"/products"} component={Product}></Route>
         <Route path={"/teams"} component={Team}></Route>
+        <Route path={"/Aboutus"} component={Aboutus}></Route>
       </Router>
       <Footer />
     </div>

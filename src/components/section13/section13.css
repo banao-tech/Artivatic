@@ -1,0 +1,64 @@
+.section-13 {
+  padding: 50px 0;
+  background-color: #F4F5FA;;
+  overflow: hidden;
+}
+
+.section-13 .wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-13 .wrapper .headDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.section-13 .wrapper .leftDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    grid-gap: 20px;
+}
+.section-13 .wrapper .leftDiv .headDiv h1{
+    font-weight: bold;
+font-size: 18px;
+line-height: 23px;
+display: flex;
+align-items: left;
+
+color: #050302;
+}
+.section-13 .wrapper .leftDiv .headDiv span{
+    color:  #22BB66;;
+}
+.section-13 .wrapper .rightDiv{
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+}
+.section-13 .wrapper .rightDiv img{
+    width: 100%;
+}
+@media screen and (min-width: 768px) {
+    .section-13 {
+        padding: 110px 0px;
+    }
+    .section-13 .wrapper .headDiv{
+        padding-right: 30%;
+    }
+    .section-13 .wrapper .leftDiv{
+        width: 50%;
+        padding-right: 70px;
+
+    }
+    .section-13 .wrapper .rightDiv{
+        width: 50%;
+    }
+}
+@media screen and (min-width: 1050px) {}
